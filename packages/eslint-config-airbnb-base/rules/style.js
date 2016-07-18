@@ -47,7 +47,7 @@ module.exports = {
 
     // this option sets a specific tab width for your code
     // http://eslint.org/docs/rules/indent
-    indent: [2, 2, { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
+    indent: [2, "tab", { SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1 }],
 
     // specify whether double or single quotes should be used in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes
@@ -78,7 +78,7 @@ module.exports = {
 
     // specify the maximum length of a line in your program
     // http://eslint.org/docs/rules/max-len
-    'max-len': [2, 100, 2, {
+    'max-len': [2, 120, 2, {
       ignoreUrls: true,
       ignoreComments: false
     }],
